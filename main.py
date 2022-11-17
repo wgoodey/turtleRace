@@ -82,6 +82,6 @@ else:
     result = f"Sorry you lost. The {leader} turtle crossed the finish line first."
 
 turtle.hideturtle()
-turtle.write(result)
+turtle.write(result, align="center")
 
 screen.exitonclick()
